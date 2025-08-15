@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio personal</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#presentacion">Presentación</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#historia">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Presentación -->
+  <section id="inicio">
+    <div class="presentacion-container">
+      <div class="presentacion-texto">
+        <h1>Robustiano Aguirre Cambera</h1>
+        <h2>Desarrollador Web Junior</h2>
+        <p>Hola! Soy Robustiano, apasionado por la electrónica, la programación y el diseño de sistemas funcionales. Bienvenido a mi portfolio.</p>
+        <a href="#contacto" class="boton-contacto">Contáctame</a>
+      </div>
+      <div class="presentacion-imagen">
+        <img class="Img1" src="img/fotomia.jpeg" alt="Foto mia" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section class="proyectos" id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyectos-grid">
+      <div class="proyecto">
+        <h3>Dispositivo de Alcoholemia y Oxímetro Automatizado</h3>
+        <p>Proyecto técnico con sensores integrados y respuesta automatizada usando Arduino IDE y Tinkercad.</p>
+        <img src="img/2.png" alt="" />
+        <a href="docs/CARPETA 200HS terminado dispositivos de alcohol y oximetro.pdf" target="_blank">Ver proyecto</a>
+      </div>
+
+      <div class="proyecto">
+        <h3>Diseño de Landing Page</h3>
+        <p>Réplica de Landing Page con Flexbox utilizando HTML y CSS.</p>
+        <img src="img/landingp.png" alt="Landing Page" />
+        <a href="https://github.com/Robustiano23/TP3-FLEXBOX" target="_blank">Ver proyecto</a>
+      </div>
+
+      <div class="proyecto">
+        <h3>Sistema de Gestión para Veterinaria “Dingo”</h3>
+        <p>Aplicación en C++ para administrar turnos, clientes e inventario. Simulación de entorno real.</p>
+        <img src="img/vetdingo.png" alt="Sistema veterinaria" />
+        <a href="https://github.com/Robustiano23/Sistema-Automatizado-Veterinaria" target="_blank">Ver proyecto</a>
+      </div>
+
+      <div class="proyecto">
+        <h3>Incubadora Automatizada</h3>
+        <p>Proyecto con sensores de temperatura y humedad, control por Arduino UNO y lógica MEF tipo Mealy.</p>
+        <img src="img/Incubadora.png" alt="Incubadora automatizada" />
+        <a href="https://www.tinkercad.com/things/aEIwtqz124e/editel?returnTo=%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=NbbC5FTWsQ9Sq21_2nsO0CbM_Pr5w3-cxeGdjZr6lz0" target="_blank">Ver proyecto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="experiencia" id="experiencia">
+    <h2>Experiencia</h2>
+    <p>Prácticas en proyectos académicos de electrónica e ingeniería aplicada y simulación de sistemas embebidos.</p>
+  </section>
+
+  <!-- Habilidades -->
+  <section class="habilidades" id="habilidades">
+    <h2>Habilidades</h2>
+    <ul id="habilidades">
+      <li><i class="fab fa-html5"></i> HTML5</li>
+      <li><i class="fab fa-css3-alt"></i> CSS3</li>
+      <li><i class="fab fa-js"></i> JavaScript</li>
+      <li><i class="fa fa-coffee"></i> Java</li>
+      <li><i class="fas fa-code"></i> C++</li>
+      <li><i class="fas fa-microchip"></i> Arduino</li>
+      <li><i class="fab fa-git-alt"></i> Git</li>
+      <li><i class="fab fa-github"></i> GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Historia -->
+  <section id="historia">
+    <h2>Sobre mí</h2>
+    <p>
+      Hola me llamo Robustiano, tengo 21 años y soy de Tafí Viejo, Tucumán. Me egresé como Técnico en Electrónica y actualmente estudio Ingeniería en Sistemas de Información. Este portfolio refleja mi recorrido, mis proyectos y mi compromiso con el aprendizaje constante.
+    </p>
+  </section>
+
+  <!-- Contacto -->
+  <section class="contacto" id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" required />
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" name="email" required />
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea name="mensaje" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-menu">
+        <a href="#inicio">Home</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer-redes">
+        <a href="https://github.com/Robustiano23" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/robustiano-aguirre-cambera-028b03352" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/tianoocambera/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="docs/Copia de CV Robustiano Aguirre Cambera.pdf" download><i class="fas fa-file-download"></i>CV</a>
+      </div>
+    </div>
+    <p>© 2025. Hecho por Robustiano</p>
+  </footer>
+
+</body>
+</html>
